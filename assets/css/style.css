@@ -1,3 +1,5 @@
+/* Index Styling - currently set up for mobile responsiveness */
+
 * {
     box-sizing: border-box;
 }
@@ -18,13 +20,15 @@ p {
 
 header {
     background: url(../images/headerBG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 100%;
     padding: 10px 0;
 }
 
 .link-box {
     position: relative;
-    height: calc((100vh - 185px) / 3);
+    height: calc((100vh - 195px) / 3);
     min-height: 150px;
 }
 
@@ -75,8 +79,10 @@ header {
 
 .foot{
     background: url(../images/footerBG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 100%;
-    height: 30px;
+    height: 40px;
 }
 
 #copyright {
