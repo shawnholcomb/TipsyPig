@@ -14,12 +14,12 @@ a:link,
 a:visited,
 a:active,
 p {
-    color: #f5f5f5;
+    color: #262626;
     text-decoration: none;
 }
 
 header {
-    background: url(../images/headerBG.jpg);
+    background: url(../images/headerBGsmall.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
@@ -46,6 +46,7 @@ header {
 }
 
 .heading {
+    color: #f5f5f5;
     font-family: 'Syncopate', sans-serif;
     font-size: 44px;
     font-weight: bolder;
@@ -56,29 +57,29 @@ header {
     height: 135px;
 }
 
-.menu {
-    background: url(../images/aboutBG.jpg);
+.menu-header {
+    background: url(../images/menuBGsmall.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
 }
 
-.about {
-    background: url(../images/menuBG2.jpg);
+.about-header {
+    background: url(../images/aboutBGsmall.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
 }
 
-.contact{
-    background: url(../images/contactBG.jpg);
+.contact-header {
+    background: url(../images/contactBGsmall.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
 }
 
 .foot{
-    background: url(../images/footerBG.jpg);
+    background: url(../images/footerBGsmall.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
@@ -89,4 +90,101 @@ header {
     font-size: 12px;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #000;
+}
+
+@media only screen and (max-width: 1024px){
+    header {
+        background: url(../images/headerBGsmall.jpg);
+    }
+
+    #header-logo {
+        height: 135px;
+    }
+
+    .link-box {
+        height: calc((100vh - 195px) / 3);
+    }
+
+    .menu-header {
+        background: url(../images/menuBGsmall.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .menu-box,
+    .about-box,
+    .contact-box {
+        padding: 25px;
+        line-height: 160%;
+        display: none;
+    }
+
+    .box-header,
+    .box-selection,
+    .menu-descrip {
+        margin-bottom: 15px;
+    }
+
+    .menu-item {
+        margin-bottom: 5px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: #262626;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .icon {
+        font-size: 50px;
+        padding: 5px;
+    }
+    
+    .about-header {
+        background: url(../images/aboutBGsmall.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+    }
+    
+    .contact-header {
+        background: url(../images/contactBGsmall.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .contact-row {
+        margin-bottom: 15px;
+    }
+
+    .social {
+        color: #262626;
+    }
+    
+    .foot{
+        background: url(../images/footerBGsmall.jpg);
+    }
+
+    #copyright {
+        font-size: 12px;
+    }
 }
