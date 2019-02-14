@@ -117,14 +117,15 @@ header {
     .menu-header {
         background: url(../images/menuBGsmall.jpg);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% auto;
         width: 100%;
+        box-shadow: 0px 3px 20px #999;
     }
 
     .menu-box,
     .about-box,
     .contact-box {
-        padding: 25px;
+        padding: 20px;
         line-height: 160%;
         display: none;
         background: #f5f5f5;
@@ -134,10 +135,38 @@ header {
     .box-selection,
     .menu-descrip {
         margin-bottom: 15px;
+        line-height: 140%;
     }
 
-    .menu-item {
-        margin-bottom: 5px;
+    .menu-bg {
+        background: url(../images/logosillpng.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        width: 100%;
+    }
+
+    .box-selection {
+        color: #f5f5f5;
+        padding: 20px 30px;
+        background: url(../images/boxbg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+
+
+    .menu-item,
+    .menu-item-price {
+        padding: 0 5px;
+        line-height: 150%;
+    }
+
+    .menu-item-lb {
+        margin-bottom: 15px;
+    }
+
+    .menu-item-price {
+        font-size: 24px;
     }
 
     h1,
@@ -156,7 +185,7 @@ header {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     h4 {
@@ -171,15 +200,22 @@ header {
     .about-header {
         background: url(../images/aboutBGsmall.jpg);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% auto;
         width: 100%;
+        box-shadow: 0px 3px 20px #999;
+    }
+
+    #tex {
+        width: 60%;
+        height: 60%;
     }
     
     .contact-header {
         background: url(../images/contactBGsmall.jpg);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% auto;
         width: 100%;
+        box-shadow: 0px 3px 20px #999;
     }
 
     .contact-row {
