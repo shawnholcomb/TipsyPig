@@ -161,12 +161,17 @@ header {
         line-height: 150%;
     }
 
-    .menu-item-lb {
+    .menu-item-lb,
+    .about-text {
         margin-bottom: 15px;
     }
 
     .menu-item-price {
         font-size: 24px;
+    }
+
+    .pic-slide {
+        /* margin: 10px */
     }
 
     h1,
